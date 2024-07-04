@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import {ImCircleRight} from "react-icons/im";
 
 function AboutCard() {
   return (
@@ -8,33 +8,38 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            Hello, I am <span className="purple">Pratyush Chowdhury </span>
+            from <span className="purple"> Pune, India.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
+            I am currently an Intern at iAM-KiAM, Pune.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            I'm in my Fourth Year of pursuing B.Tech in <span className="purple">CSE</span> with <span className="purple">specialization in Cybersecurity & Forensics  </span> from <span className="purple">MIT-WPU, Pune.</span>
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from coding, here are some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImCircleRight/> E-Sports 🎮
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImCircleRight/> Badminton 🏸
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImCircleRight/> Sketching ✍️
+            </li>
+            <li className="about-activity">
+              <ImCircleRight/> Playing Keyboard 🎹 & Guitar 🎸
+            </li>
+            <li className="about-activity">
+              <ImCircleRight/> Travelling ✈🧳
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+           "In the middle of every difficulty lies opportunity."{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Albert Einstein</footer>
         </blockquote>
       </Card.Body>
     </Card>
